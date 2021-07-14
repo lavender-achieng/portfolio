@@ -1,2 +1,19 @@
-body
-font-size:1.2em;
+body {
+  font-size: 1.5em;
+}
+nav {
+  background-color: #2be271;
+  line-height: 3em;
+}
+nav a {
+  color: #fffaf0;
+}
+header {
+  background-color: blue;
+}
+a {
+  text-decoration: chartreuse;
+}
+footer ul {
+  list-style-type: lower-roman;
+}

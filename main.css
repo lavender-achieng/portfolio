@@ -1,0 +1,35 @@
+body {
+  font-size: 1.5em;
+}
+nav {
+.container{
+  display:flex;
+  flex-direction: column;
+  height:100vh;
+}
+.navbar {
+  background-color: #2be271;
+  line-height: 3em;
+  line-height: 3rem;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:flex-end;
+}
+nav a {
+  color: #fffaf0;
+@@ -16,4 +25,15 @@ a {
+}
+footer ul {
+  list-style-type: lower-roman;
+
+}
+dislay:flex;
+justify-content:center;
+}
+footer ul li{
+  margin-right o.5em;
+}
+footer p{
+  color:chocolate
+  text-align: center;

@@ -1,10 +1,18 @@
 body {
   font-size: 1.5em;
 }
-.container{
+.container-fluid{
   display:flex;
   flex-direction: column;
   height:100vh;
+}
+.container{
+  width:90vw
+  margin:auto;
+}
+.center{
+text align :center;
+
 }
 .navbar {
   background-color: #2be271;
@@ -17,14 +25,46 @@ body {
 nav a {
   color: #fffaf0;
 }
-header {
+.jumbostron {
+  display:flex;
+  flex-direction: row;
   background-color: blue;
 }
 a {
   text-decoration: chartreuse;
+
+}
+main{
+  flex-grow:1;
+}
+.cards-container{
+  display:flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1;
+}
+.card{
+  min-width: 300px;
+  min-height: 300px;
+  border: 1px solid blue;
+  margin:0.5em;
+  box-shadow:0 0 1rem 0  rgb(31, 31, 54);
+  .b{
+  margin:0.5em;
+  border: 1px solid blue;
+  }
+  .box-shadow{
+    box-shadow:0 0 1rem 0 rgb(255, 230, 0);
+
+  }
+}
+  footer{
+    background-color:blue; 
+  }
 }
 footer ul {
-  list-style-type: lower-roman;
+  list-style-type: none;
 
 }
 dislay:flex;

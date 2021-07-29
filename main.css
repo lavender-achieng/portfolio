@@ -1,7 +1,7 @@
 body {
   font-size: 1.5em;
 }
-nav {
+
 .container{
   display:flex;
   flex-direction: column;
@@ -17,8 +17,13 @@ nav {
   justify-content:flex-end;
 }
 nav a {
-  color: #fffaf0;
-@@ -16,4 +25,15 @@ a {
+  color: #100972;
+}
+header{
+  background-color: #100972;
+}
+a{
+  text-decoration: aliceblue;
 }
 footer ul {
   list-style-type: lower-roman;
